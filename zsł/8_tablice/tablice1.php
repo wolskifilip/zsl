@@ -79,7 +79,38 @@ ShowForeach($student);
 zad.dom.
 utworzyc tablice 3-wymiarową oraz 5-wymiarową
 napisz do tych tablic funkcje wyswietlajace dane
+
 */
+$tab = array(
+array(
+array(
+array(
+array(
+"Jest git"
+	)
+   )
+  )
+ )
+);
+
+function ShowArray5($tab)
+{
+	foreach($tab as $a){
+		foreach($a as $b){
+			foreach($b as $c) {
+				echo $c;
+			}
+		}
+	}
+
+
+
+
+}
+
+
+
+
 //sortowanie
 
 $tab = array(10, 1, 15, 20, 100, 8);
@@ -149,6 +180,9 @@ $wiek = $_POST['wiek'];
 print_r($imie);
 echo "<br>";
 var_dump($wiek);
+
+
+
 
 
 
