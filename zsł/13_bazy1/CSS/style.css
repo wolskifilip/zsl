@@ -1,0 +1,16 @@
+body{
+  background-color: #334;
+  color:white;
+
+}
+
+table, th, tr, td{
+  border: solid 2px white;
+  text-align: center;
+  border-collapse: collapse;
+  padding: 8px;
+}
+
+a{
+
+}
